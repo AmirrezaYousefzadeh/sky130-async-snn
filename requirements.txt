@@ -1,0 +1,8 @@
+torch>=2.2
+numpy
+scipy
+h5py
+numba
+tonic
+tqdm
+matplotlib

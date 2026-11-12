@@ -1,0 +1,30 @@
+# Measurement core (synthesis/core_power): LibreLane settings for the energy measurement (no decap cells, no
+# antenna repair or port buffers; the design's own clock gates kept).
+DESIGN_NAME: snn_core_meas
+VERILOG_FILES: [dir::../rtl/snn_core_meas.v, dir::../rtl/core_rom.v]
+VERILOG_INCLUDE_DIRS: [dir::../rtl]
+VERILOG_DEFINES: [CORE_SYNTH]
+CLOCK_PORT: clk
+CLOCK_PERIOD: 25.0          # 40 MHz at every corner; equals about 67 MHz at the typical corner (own STA at 14.925 ns, tt)
+PNR_SDC_FILE: dir::../core.sdc
+SIGNOFF_SDC_FILE: dir::../core.sdc
+STD_CELL_LIBRARY: sky130_fd_sc_hd
+FP_SIZING: relative
+FP_CORE_UTIL: 30
+PL_TARGET_DENSITY_PCT: 40
+DECAP_CELLS: []
+RUN_HEURISTIC_DIODE_INSERTION: false
+DIODE_ON_PORTS: none
+RUN_ANTENNA_REPAIR: false
+DRT_ANTENNA_REPAIR_ITERS: 0
+GRT_ALLOW_CONGESTION: true
+PL_RESIZER_HOLD_MAX_BUFFER_PCT: 80
+GRT_RESIZER_HOLD_MAX_BUFFER_PCT: 80
+DESIGN_REPAIR_BUFFER_INPUT_PORTS: false
+DESIGN_REPAIR_BUFFER_OUTPUT_PORTS: false
+EXTRA_EXCLUDED_CELLS: ["sky130_fd_sc_hd__clkdlybuf4s*"]
+CTS_APPLY_NDR: none
+ERROR_ON_UNMAPPED_CELLS: false
+ERROR_ON_SYNTH_CHECKS: false
+RUN_LINTER: false
+STA_THREADS: 2

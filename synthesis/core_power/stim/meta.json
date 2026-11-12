@@ -1,0 +1,110 @@
+{
+ "model": "nmnist32_pipelined1_dt5000_T66_h4096-4096-4096-4096-4096_w8_th256_s0tn4096t5so",
+ "layer": 2,
+ "core": 0,
+ "theta": 152,
+ "k_leak": 10,
+ "axons": [
+  8,
+  21,
+  27,
+  33,
+  "..."
+ ],
+ "rom_min": -77,
+ "rom_max": 62,
+ "rom_zero_frac": 0.02484130859375,
+ "scenarios": {
+  "spike": {
+   "commands": 1422,
+   "spikes_out": 1174,
+   "spikes_out_in_window": 883,
+   "ops": {
+    "0": 1300,
+    "1": 120,
+    "2": 0
+   },
+   "final_v_min": -32768,
+   "final_v_max": 137,
+   "final_v_mean": -13670.375
+  },
+  "spike_ref": {
+   "commands": 1422,
+   "spikes_out": 340,
+   "spikes_out_in_window": 50,
+   "ops": {
+    "0": 1300,
+    "1": 120,
+    "2": 0
+   },
+   "final_v_min": -32768,
+   "final_v_max": 10035,
+   "final_v_mean": -13145.578125
+  },
+  "add": {
+   "commands": 1422,
+   "spikes_out": 0,
+   "spikes_out_in_window": 0,
+   "ops": {
+    "0": 1300,
+    "1": 120,
+    "2": 0
+   },
+   "final_v_min": -32768,
+   "final_v_max": 12494,
+   "final_v_mean": -12945.05859375
+  },
+  "leak": {
+   "commands": 622,
+   "spikes_out": 291,
+   "spikes_out_in_window": 0,
+   "ops": {
+    "0": 300,
+    "1": 320,
+    "2": 0
+   },
+   "final_v_min": -7294,
+   "final_v_max": 151,
+   "final_v_mean": -2318.1796875
+  },
+  "thr": {
+   "commands": 622,
+   "spikes_out": 291,
+   "spikes_out_in_window": 0,
+   "ops": {
+    "0": 300,
+    "1": 120,
+    "2": 200
+   },
+   "final_v_min": -8982,
+   "final_v_max": 151,
+   "final_v_mean": -2910.8046875
+  },
+  "spike_rand": {
+   "commands": 1422,
+   "spikes_out": 852,
+   "spikes_out_in_window": 561,
+   "ops": {
+    "0": 1300,
+    "1": 120,
+    "2": 0
+   },
+   "final_v_min": -23985,
+   "final_v_max": 137,
+   "final_v_mean": -8029.1171875
+  },
+  "idle": {
+   "commands": 422,
+   "spikes_out": 291,
+   "spikes_out_in_window": 0,
+   "ops": {
+    "0": 300,
+    "1": 120,
+    "2": 0
+   },
+   "final_v_min": -8982,
+   "final_v_max": 151,
+   "final_v_mean": -2910.8046875
+  }
+ }
+}

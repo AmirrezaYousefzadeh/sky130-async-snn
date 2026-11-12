@@ -1,0 +1,425 @@
+{
+ "label": "core v2, synthesis netlist (LibreLane 3.0.16 Yosys), zero-delay GLS, OpenSTA tt_025C_1v80, no wire capacitance",
+ "clock_ns": 14.925,
+ "area_um2": {
+  "logic: read multiplexers, neuron unit, control": 65781.8399999957,
+  "other flip-flops (control, pipeline, output)": 105224.66879999147,
+  "FIFO entries (flip-flops and clock gates)": 1121.0752,
+  "core clock gate": 455.43679999999983,
+  "membrane words (flip-flops and clock gates)": 4484.300799999998,
+  "weight ROM (256 kept modules)": 679371.5712
+ },
+ "cells": {
+  "logic: read multiplexers, neuron unit, control": 5148,
+  "other flip-flops (control, pipeline, output)": 4947,
+  "FIFO entries (flip-flops and clock gates)": 64,
+  "core clock gate": 26,
+  "membrane words (flip-flops and clock gates)": 256,
+  "weight ROM (256 kept modules)": 74770
+ },
+ "area_total_um2": 856438.8927999872,
+ "scenarios": {
+  "add": {
+   "window": {
+    "cycles": 256004,
+    "ops": 1000,
+    "out_spikes": 0
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0007542308,
+     "switching": 0.0007986105,
+     "leakage": 4.174862e-08,
+     "total": 0.001552883
+    },
+    "Combinational": {
+     "internal": 0.008426769,
+     "switching": 0.001088735,
+     "leakage": 2.634806e-07,
+     "total": 0.009515767
+    },
+    "Clock": {
+     "internal": 0.0001014109,
+     "switching": 7.162429e-05,
+     "leakage": 3.733625e-09,
+     "total": 0.0001730389
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.009282743,
+     "switching": 0.001958962,
+     "leakage": 3.089667e-07,
+     "total": 0.01124201
+    }
+   },
+   "window_s": 0.0038208597000000005,
+   "energy_window_J": 4.2954142955997005e-05,
+   "dynamic_energy_window_J": 4.295296243758433e-05,
+   "energy_per_op_J": 4.295414295599701e-08,
+   "dynamic_energy_per_op_J": 4.295296243758433e-08,
+   "dynamic_energy_per_synop_J": 1.677850095218138e-10
+  },
+  "idle": {
+   "window": {
+    "cycles": 20001,
+    "ops": 0,
+    "out_spikes": 0
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 4.141221e-08,
+     "total": 4.141221e-08
+    },
+    "Combinational": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 2.644618e-07,
+     "total": 2.644618e-07
+    },
+    "Clock": {
+     "internal": 1.776386e-06,
+     "switching": 0.0,
+     "leakage": 3.731447e-09,
+     "total": 1.780117e-06
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 1.776386e-06,
+     "switching": 0.0,
+     "leakage": 3.096246e-07,
+     "total": 2.08601e-06
+    }
+   },
+   "window_s": 0.000298514925,
+   "energy_window_J": 6.227051186992499e-10,
+   "dynamic_energy_window_J": 5.302775544520949e-10
+  },
+  "idle_on": {
+   "window": {
+    "cycles": 20001,
+    "ops": 0,
+    "out_spikes": 0
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0002289584,
+     "switching": 0.0,
+     "leakage": 4.140989e-08,
+     "total": 0.0002289998
+    },
+    "Combinational": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 2.644517e-07,
+     "total": 2.644517e-07
+    },
+    "Clock": {
+     "internal": 3.36354e-05,
+     "switching": 4.968933e-05,
+     "leakage": 3.732734e-09,
+     "total": 8.332846e-05
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.0002625937,
+     "switching": 4.968933e-05,
+     "leakage": 3.096135e-07,
+     "total": 0.0003125927
+    }
+   },
+   "window_s": 0.000298514925,
+   "energy_window_J": 9.33135863960475e-08,
+   "dynamic_energy_window_J": 9.322116214531602e-08
+  },
+  "leak": {
+   "window": {
+    "cycles": 51203,
+    "ops": 200,
+    "out_spikes": 0
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0007272767,
+     "switching": 0.0007552124,
+     "leakage": 4.157823e-08,
+     "total": 0.001482531
+    },
+    "Combinational": {
+     "internal": 0.007412731,
+     "switching": 0.000986284,
+     "leakage": 2.62662e-07,
+     "total": 0.008399278
+    },
+    "Clock": {
+     "internal": 0.0001012017,
+     "switching": 7.15515e-05,
+     "leakage": 3.733616e-09,
+     "total": 0.000172757
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.008241099,
+     "switching": 0.001813027,
+     "leakage": 3.07994e-07,
+     "total": 0.01005443
+    }
+   },
+   "window_s": 0.000764204775,
+   "energy_window_J": 7.68364341590325e-06,
+   "dynamic_energy_window_J": 7.683408045417778e-06,
+   "energy_per_op_J": 3.841821707951625e-08,
+   "dynamic_energy_per_op_J": 3.841704022708889e-08,
+   "dynamic_energy_per_synop_J": 1.5006656338706598e-10
+  },
+  "spike": {
+   "window": {
+    "cycles": 256004,
+    "ops": 1000,
+    "out_spikes": 883
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0007431349,
+     "switching": 0.0007972863,
+     "leakage": 4.165468e-08,
+     "total": 0.001540463
+    },
+    "Combinational": {
+     "internal": 0.008336296,
+     "switching": 0.001070453,
+     "leakage": 2.633521e-07,
+     "total": 0.009407013
+    },
+    "Clock": {
+     "internal": 0.0001014109,
+     "switching": 7.162429e-05,
+     "leakage": 3.733625e-09,
+     "total": 0.0001730389
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.009180995,
+     "switching": 0.001939336,
+     "leakage": 3.087442e-07,
+     "total": 0.01112064
+    }
+   },
+   "window_s": 0.0038208597000000005,
+   "energy_window_J": 4.2490405214208e-05,
+   "dynamic_energy_window_J": 4.2489225545936616e-05,
+   "energy_per_op_J": 4.2490405214208e-08,
+   "dynamic_energy_per_op_J": 4.2489225545936617e-08,
+   "dynamic_energy_per_synop_J": 1.659735372888149e-10
+  },
+  "spike_rand": {
+   "window": {
+    "cycles": 256004,
+    "ops": 1000,
+    "out_spikes": 561
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0007358041,
+     "switching": 0.0008039561,
+     "leakage": 4.153612e-08,
+     "total": 0.001539802
+    },
+    "Combinational": {
+     "internal": 0.008431063,
+     "switching": 0.001072338,
+     "leakage": 2.635016e-07,
+     "total": 0.009503664
+    },
+    "Clock": {
+     "internal": 0.0001014109,
+     "switching": 7.162429e-05,
+     "leakage": 3.733625e-09,
+     "total": 0.0001730389
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.009268722,
+     "switching": 0.001947878,
+     "leakage": 3.087728e-07,
+     "total": 0.01121691
+    }
+   },
+   "window_s": 0.0038208597000000005,
+   "energy_window_J": 4.2858239377527005e-05,
+   "dynamic_energy_window_J": 4.285705959997903e-05,
+   "energy_per_op_J": 4.2858239377527004e-08,
+   "dynamic_energy_per_op_J": 4.285705959997903e-08,
+   "dynamic_energy_per_synop_J": 1.674103890624181e-10
+  },
+  "spike_ref": {
+   "window": {
+    "cycles": 256004,
+    "ops": 1000,
+    "out_spikes": 50
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0007686949,
+     "switching": 0.0007985385,
+     "leakage": 4.173297e-08,
+     "total": 0.001567275
+    },
+    "Combinational": {
+     "internal": 0.00851561,
+     "switching": 0.001107934,
+     "leakage": 2.633898e-07,
+     "total": 0.009623808
+    },
+    "Clock": {
+     "internal": 0.0001014109,
+     "switching": 7.162429e-05,
+     "leakage": 3.733625e-09,
+     "total": 0.0001730389
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.009386142,
+     "switching": 0.001978123,
+     "leakage": 3.088608e-07,
+     "total": 0.01136457
+    }
+   },
+   "window_s": 0.0038208597000000005,
+   "energy_window_J": 4.3422427520829e-05,
+   "dynamic_energy_window_J": 4.3421247407045375e-05,
+   "energy_per_op_J": 4.3422427520828996e-08,
+   "dynamic_energy_per_op_J": 4.3421247407045374e-08,
+   "dynamic_energy_per_synop_J": 1.69614247683771e-10
+  },
+  "thr": {
+   "window": {
+    "cycles": 51203,
+    "ops": 200,
+    "out_spikes": 0
+   },
+   "power_W": {
+    "Sequential": {
+     "internal": 0.0007274037,
+     "switching": 0.0007543615,
+     "leakage": 4.148021e-08,
+     "total": 0.001481807
+    },
+    "Combinational": {
+     "internal": 0.007434566,
+     "switching": 0.0009873615,
+     "leakage": 2.625749e-07,
+     "total": 0.00842219
+    },
+    "Clock": {
+     "internal": 0.0001012017,
+     "switching": 7.15515e-05,
+     "leakage": 3.733616e-09,
+     "total": 0.000172757
+    },
+    "Macro": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Pad": {
+     "internal": 0.0,
+     "switching": 0.0,
+     "leakage": 0.0,
+     "total": 0.0
+    },
+    "Total": {
+     "internal": 0.008262843,
+     "switching": 0.001813262,
+     "leakage": 3.078083e-07,
+     "total": 0.01007641
+    }
+   },
+   "window_s": 0.000764204775,
+   "energy_window_J": 7.70044063685775e-06,
+   "dynamic_energy_window_J": 7.700205408285105e-06,
+   "energy_per_op_J": 3.850220318428875e-08,
+   "dynamic_energy_per_op_J": 3.850102704142552e-08,
+   "dynamic_energy_per_synop_J": 1.5039463688056845e-10
+  }
+ }
+}

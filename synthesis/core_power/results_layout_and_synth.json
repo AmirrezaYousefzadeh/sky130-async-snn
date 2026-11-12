@@ -1,0 +1,118 @@
+{
+ "synth_zd": {
+  "spike_s": {
+   "power_W": 0.01094848,
+   "leakage_W": 3.080776e-07,
+   "cycles": 64004,
+   "ops": 250,
+   "energy_per_op_nJ": 41.834566881024,
+   "per_synop_pJ": 163.416276879
+  },
+  "add_s": {
+   "power_W": 0.01113144,
+   "leakage_W": 3.084732e-07,
+   "cycles": 64004,
+   "ops": 250,
+   "energy_per_op_nJ": 42.533664139871995,
+   "per_synop_pJ": 166.14712554637498
+  },
+  "leak_s": {
+   "power_W": 0.01020251,
+   "leakage_W": 3.081165e-07,
+   "cycles": 12803,
+   "ops": 50,
+   "energy_per_op_nJ": 38.990886555705,
+   "per_synop_pJ": 152.30815060822266
+  },
+  "thr_s": {
+   "power_W": 0.009989468,
+   "leakage_W": 3.078477e-07,
+   "cycles": 12803,
+   "ops": 50,
+   "energy_per_op_nJ": 38.176704902994,
+   "per_synop_pJ": 149.1277535273203
+  },
+  "idle_s": {
+   "power_W": 2.086311e-06,
+   "leakage_W": 3.099253e-07,
+   "cycles": 5001,
+   "ops": 0
+  },
+  "idle_on_s": {
+   "power_W": 0.000312593,
+   "leakage_W": 3.099138e-07,
+   "cycles": 5001,
+   "ops": 0
+  }
+ },
+ "layout_zd_spef": {
+  "spike_s": {
+   "power_W": 0.01116125,
+   "leakage_W": 3.386914e-07,
+   "cycles": 64004,
+   "ops": 250,
+   "energy_per_op_nJ": 42.6475693065,
+   "per_synop_pJ": 166.59206760351563
+  },
+  "leak_s": {
+   "power_W": 0.01095551,
+   "leakage_W": 3.387061e-07,
+   "cycles": 12803,
+   "ops": 50,
+   "energy_per_op_nJ": 41.868623267205,
+   "per_synop_pJ": 163.54930963751954
+  },
+  "idle_on_s": {
+   "power_W": 0.0008291607,
+   "leakage_W": 3.406206e-07,
+   "cycles": 5001,
+   "ops": 0
+  }
+ },
+ "layout_sdf_spef": {
+  "spike_s": {
+   "power_W": 0.0139033,
+   "leakage_W": 3.386102e-07,
+   "cycles": 64004,
+   "ops": 250,
+   "energy_per_op_nJ": 53.12504874804,
+   "per_synop_pJ": 207.51972167203127
+  },
+  "add_s": {
+   "power_W": 0.01322073,
+   "leakage_W": 3.390194e-07,
+   "cycles": 64004,
+   "ops": 250,
+   "energy_per_op_nJ": 50.516922294324,
+   "per_synop_pJ": 197.3317277122031
+  },
+  "leak_s": {
+   "power_W": 0.01288706,
+   "leakage_W": 3.386477e-07,
+   "cycles": 12803,
+   "ops": 50,
+   "energy_per_op_nJ": 49.25041921023,
+   "per_synop_pJ": 192.38445003996094
+  },
+  "thr_s": {
+   "power_W": 0.0130326,
+   "leakage_W": 3.383673e-07,
+   "cycles": 12803,
+   "ops": 50,
+   "energy_per_op_nJ": 49.80662877329999,
+   "per_synop_pJ": 194.5571436457031
+  },
+  "idle_s": {
+   "power_W": 2.204333e-06,
+   "leakage_W": 3.405757e-07,
+   "cycles": 5001,
+   "ops": 0
+  },
+  "idle_on_s": {
+   "power_W": 0.0008291829,
+   "leakage_W": 3.406206e-07,
+   "cycles": 5001,
+   "ops": 0
+  }
+ }
+}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+results/
+*.vcd
+*.fst
+*.log
+synthesis/**/runs/
+synthesis/**/logs/
+synthesis/core_power/harden/
+synthesis/core_power/h25/work/
+synthesis/core_power/tools/vcd_toggles
+synthesis/core_power/env.local.sh
